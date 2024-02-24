@@ -1,0 +1,63 @@
+/* Services.css */
+
+/* Container for the cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styles */
+.card {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  display: flex; /* Use flexbox to arrange items */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 40%; /* Adjust the width of the image */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-content {
+  flex: 1; /* Let the content take remaining space */
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Button */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff0505;
+}
