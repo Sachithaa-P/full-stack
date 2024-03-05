@@ -1,0 +1,13 @@
+.ufaq1-container,
+.ufaq2-container,
+.ufaq3-container,
+.ufaq4-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ufaq1-container:hover,
+.ufaq2-container:hover,
+.ufaq3-container:hover,
+.ufaq4-container:hover {
+  transform: scale(1.05);
+}
